@@ -16,7 +16,7 @@ while True:
     c, addr = s.accept()
     #receive message from client
     imgpath = c.recv()
-    htmlpath = '/Users/hxt/Desktop/Duke Documents/Software Engineering/project'
+    htmlpath = '/Users/SpringCurry/Desktop/Duke Documents/Software Engineering/project'
     #find image and preprocess
     sampler.convert_single_image(htmlpath,
                                  png_path=imgpath, print_generated_output=0, style='default')
